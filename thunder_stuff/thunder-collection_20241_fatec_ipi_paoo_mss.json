@@ -1,0 +1,55 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "20241_fatec_ipi_paoo_mss",
+    "dateExported": "2024-04-03T18:25:42.030Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "c9a4ca82-6027-4368-8604-3d0f72676d34",
+            "name": "lembretes",
+            "containerId": "",
+            "created": "2024-04-03T18:13:00.294Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "38b4be78-3440-45d7-a4aa-cead32e2430f",
+            "name": "observacoes",
+            "containerId": "",
+            "created": "2024-04-03T18:13:05.774Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "38fee611-1b69-4a9a-a77c-7ca88ebf72fb",
+            "colId": "b3d7636b-12de-41a2-8297-26fc815a5c60",
+            "containerId": "c9a4ca82-6027-4368-8604-3d0f72676d34",
+            "name": "Salvar Lembrete",
+            "url": "localhost:4000/lembretes",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-03T18:14:13.607Z",
+            "modified": "2024-04-03T18:18:48.312Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"texto\": \"Fazer Café\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c99b92b6-5fdf-45c0-950a-0fd075b5c30f",
+            "colId": "b3d7636b-12de-41a2-8297-26fc815a5c60",
+            "containerId": "c9a4ca82-6027-4368-8604-3d0f72676d34",
+            "name": "Obter lembretes",
+            "url": "",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-03T18:21:56.535Z",
+            "modified": "2024-04-03T18:21:56.535Z",
+            "headers": []
+        }
+    ]
+}
