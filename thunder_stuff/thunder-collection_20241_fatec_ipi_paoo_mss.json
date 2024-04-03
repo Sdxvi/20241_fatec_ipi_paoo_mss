@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "20241_fatec_ipi_paoo_mss",
-    "dateExported": "2024-04-03T18:25:42.030Z",
+    "dateExported": "2024-04-03T21:03:58.267Z",
     "version": "1.1",
     "folders": [
         {
@@ -44,12 +44,47 @@
             "colId": "b3d7636b-12de-41a2-8297-26fc815a5c60",
             "containerId": "c9a4ca82-6027-4368-8604-3d0f72676d34",
             "name": "Obter lembretes",
-            "url": "",
+            "url": "localhost:4000/lembretes",
             "method": "GET",
             "sortNum": 20000,
             "created": "2024-04-03T18:21:56.535Z",
-            "modified": "2024-04-03T18:21:56.535Z",
-            "headers": []
+            "modified": "2024-04-03T20:44:15.080Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "84f9ff18-23f0-4901-bfb2-7bbb8c8f3528",
+            "colId": "b3d7636b-12de-41a2-8297-26fc815a5c60",
+            "containerId": "38b4be78-3440-45d7-a4aa-cead32e2430f",
+            "name": "Obter Observações de um lembrete",
+            "url": "localhost:5000/lembretes/1/observacoes",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-03T20:25:24.218Z",
+            "modified": "2024-04-03T20:28:18.787Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ea239ffc-5f37-41e2-ad67-bdb76efaf7e6",
+            "colId": "b3d7636b-12de-41a2-8297-26fc815a5c60",
+            "containerId": "38b4be78-3440-45d7-a4aa-cead32e2430f",
+            "name": "Salvar observacao para um lembrete",
+            "url": "localhost:5000/lembretes/1/observacoes",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-04-03T20:30:05.064Z",
+            "modified": "2024-04-03T20:32:42.213Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"texto\": \"{{#string}}\"\n}",
+                "form": []
+            },
+            "tests": []
         }
     ]
 }
